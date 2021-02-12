@@ -3,7 +3,7 @@ body {
   background-size: cover;
 }
 
-nav ul {
+ nav ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -13,7 +13,7 @@ nav ul {
   color: white;
 }
 
-nav li {
+ nav li {
   border: 2px solid white;
   padding: 5px;
   margin: 5px;
@@ -60,6 +60,49 @@ a:active {
 }
 #bot-list {
   padding-bottom: 0px;
+}
+
+.para h1 {
+  color: #FF0000;
+  text-shadow: .5px .5px black;
+  font-size: 28px;
+  text-align: center;
+}
+.para h2, h3 {
+color: #FF0000;
+text-shadow: .5px .5px black;
+text-align: center;
+}
+.para li {
+  color: white;
+  text-align: left;
+  margin-top: 30px;
+  font-size: 140%;
+  list-style: none;
+}
+#paralist a {
+  color: #00FFFF;
+}
+
+#ghost-back {
+  width: 12%;
+}
+.family-member h1 {
+  color: white;
+  text-shadow: 2px 2px grey;
+  font-size: 45px;
+  text-align: center;
+  font-family: 'Architects Daughter', cursive;
+  padding-top: 10%;
+}
+.family-member p {
+  color: #C9C5C5;
+  text-align: center;
+  font-size: 35px;
+  padding-top: 10%;
+  padding-right: 20%;
+  padding-left: 20%;
+  font-family: 'Pangolin', cursive;
 }
 
 footer {
