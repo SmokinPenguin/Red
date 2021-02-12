@@ -85,7 +85,7 @@ text-align: center;
 }
 
 #ghost-back {
-  width: 18%;
+  width: 20%;
 }
 .family-member h1 {
   color: white;
@@ -104,6 +104,8 @@ text-align: center;
   padding-left: 20%;
   font-family: 'Pangolin', cursive;
 }
+
+
 
 footer {
   position: static;
