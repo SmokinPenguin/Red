@@ -69,21 +69,32 @@ a:active {
   text-shadow: .5px .5px black;
   font-size: 28px;
   text-align: center;
+  padding-top: 5%;
 }
 .para h2, h3 {
 color: #FF0000;
 text-shadow: .5px .5px black;
 text-align: center;
 }
+.para h3 {
+  padding-bottom: 10%;
+}
 .para li {
   color: white;
   text-align: left;
-  margin-top: 30px;
+  margin-top: 35px;
   font-size: 140%;
   list-style: none;
 }
 #paralist a {
   color: #00FFFF;
+}
+#paralist li {
+  color: #00FFFF;
+  list-style: square;
+}
+#rail {
+  padding-right: 38%;
 }
 
 #ghost-back {
