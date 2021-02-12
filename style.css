@@ -42,21 +42,31 @@ a:active {
 }
 .front h2 {
   color: white;
-  font-size: 34px;
+  font-size: 30px;
   padding-top: 10%;
+  font-family: 'Russo One', sans-serif;
 }
 .front li {
   color: white;
   font-size: 30px;
   padding-top: 2%;
   padding-right: 20%;
+  padding-bottom: 5%;
+  font-family: 'Russo One', sans-serif;
 }
+
 #top-list {
-  padding-top: 10%;
+  padding-top: 7%;
+}
+#bot-list {
+  padding-bottom: 0px;
 }
 
 footer {
-  color: white;
-  padding-top: 10%;
+  position: static;
   bottom: 0;
+  left: 0;
+  padding-top: 25%;
+  margin-top: 45%;
+  color: white;
 }
