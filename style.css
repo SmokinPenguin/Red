@@ -1,7 +1,7 @@
 body {
   background-image: url(./background.jpg);
   background-size: contain;
-  background-position: center;
+  background-position: cover;
   background-repeat: repeat;
 }
 
@@ -78,6 +78,7 @@ text-align: center;
 }
 .para h3 {
   padding-bottom: 10%;
+  color: #FF0000;
 }
 .para li {
   color: white;
@@ -100,6 +101,37 @@ text-align: center;
 #ghost-back {
   width: 20%;
 }
+
+.ufo h1 {
+  color: #33FF33;
+  text-shadow: 2px 2px black;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 5%;
+}
+.ufo h2, h3 {
+color: #33FF33;
+text-shadow: 2px 2px black;
+text-align: center;
+}
+.ufo h3 {
+  padding-bottom: 10%;
+}
+.ufo li {
+  color: white;
+  text-align: left;
+  margin-top: 35px;
+  font-size: 140%;
+  list-style: none;
+}
+#ufo-list a {
+  color: #7F00FF;
+}
+#ufo-list li {
+  color: #7F00FF;
+  list-style: square;
+}
+
 .family-member h1 {
   color: white;
   text-shadow: 2px 2px grey;
