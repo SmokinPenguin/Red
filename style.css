@@ -65,20 +65,20 @@ a:active {
 }
 
 .para h1 {
-  color: #FF0000;
+  color: #C0C0C0;
   text-shadow: .5px .5px black;
   font-size: 28px;
   text-align: center;
   padding-top: 5%;
 }
 .para h2, h3 {
-color: #FF0000;
+color: #C0C0C0;
 text-shadow: .5px .5px black;
 text-align: center;
 }
 .para h3 {
   padding-bottom: 10%;
-  color: #FF0000;
+  color: #C0C0C0;
 }
 .para li {
   color: white;
@@ -101,6 +101,10 @@ text-align: center;
 #ghost-back {
   width: 20%;
 }
+#vestibular {
+  color: white;
+  font-style: italic;
+}
 
 .ufo h1 {
   color: #33FF33;
@@ -116,6 +120,7 @@ text-align: center;
 }
 .ufo h3 {
   padding-bottom: 10%;
+  color: #33FF33;
 }
 .ufo li {
   color: white;
@@ -150,7 +155,69 @@ text-align: center;
   font-family: 'Pangolin', cursive;
 }
 
+.real h1 {
+  color: #990000;
+  text-shadow: 2px 2px black;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 5%;
+}
+.real h2, h3 {
+color: #990000;
+text-shadow: 2px 2px black;
+text-align: center;
+}
+.real h3 {
+  padding-bottom: 10%;
+  color: #990000;
+}
+.real li {
+  color: white;
+  text-align: left;
+  margin-top: 35px;
+  font-size: 140%;
+  list-style: none;
+}
+#real-horror a {
+  color: #FF0000;
+}
+#real-horror li {
+  color: #FF0000;
+  list-style: square;
+}
 
+.fictional h1 {
+  color: #660000;
+  text-shadow: 2px 2px black;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 5%;
+}
+.fictional h2, h3 {
+color: #660000;
+text-shadow: 2px 2px black;
+text-align: center;
+}
+.fictional h3 {
+  padding-bottom: 10%;
+  color: #660000;
+}
+.fictional li {
+  color: white;
+  text-align: left;
+  margin-top: 35px;
+  font-size: 140%;
+  list-style: none;
+}
+#fictional-list a {
+  color: #CC0066;
+  text-shadow: 1px 1px black;
+}
+#fictional-list li {
+  color: #CC0066;
+  text-shadow: 1px 1px black;
+  list-style: square;
+}
 
 footer {
   position: static;
